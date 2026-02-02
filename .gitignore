@@ -1,0 +1,81 @@
+# ============================================
+# GLOOMY Portfolio Repository .gitignore
+# 스크립트 포함 / 에셋 제외
+# ============================================
+
+# ----- Unity Standard Ignores -----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ----- IDE & Editor -----
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ----- Unity Crash & Build -----
+sysinfo.txt
+mono_crash.*
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+GLOOMY_BurstDebugInformation_DoNotShip/
+GLOOMY_Demo_BurstDebugInformation_DoNotShip/
+
+# ----- System Files -----
+.DS_Store
+*.log
+Thumbs.db
+
+# ============================================
+# 포트폴리오용 에셋 제외 (스크립트만 포함)
+# ============================================
+
+# 모든 에셋 제외 (스크립트 제외)
+Assets/Prefabs/
+Assets/Resources/
+Assets/Scenes/
+Assets/TextMesh Pro/
+Assets/Plugins/
+
+# 메타 파일도 제외 (스크립트 관련 제외)
+Assets/Prefabs.meta
+Assets/Resources.meta
+Assets/Scenes.meta
+Assets/TextMesh Pro.meta
+Assets/Plugins.meta
+
+# Packages 제외
+Packages/
+
+# Addressables
+[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+[Aa]ssets/[Ss]treamingAssets/
