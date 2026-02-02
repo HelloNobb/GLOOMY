@@ -3,7 +3,6 @@
 ![Unity](https://img.shields.io/badge/Unity-2021+-black?style=flat-square&logo=unity)
 ![C#](https://img.shields.io/badge/C%23-9.0-purple?style=flat-square&logo=csharp)
 ![Platform](https://img.shields.io/badge/Platform-Android-green?style=flat-square&logo=android)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 
 > 🌧️ 우울한 반려 캐릭터 **"글루미"**를 돌보며 교감하는 모바일 양육 시뮬레이션 게임
 
